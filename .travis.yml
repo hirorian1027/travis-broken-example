@@ -5,4 +5,4 @@ php:
   - hhvm
 script: phpunit Test.php
 after_script:
-  - bin/php-coveralls -v --exclude-no-stmt
+  - bin/atoum --test-all
