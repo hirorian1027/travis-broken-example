@@ -1,4 +1,4 @@
 # travis-broken-example
 
 An example that will cause a build failure
-‚Ù‚°‚Ù‚°
+ã»ã’ã»ã’
