@@ -1,5 +1,10 @@
 language: java
 jdk:
   - oraclejdk9
+before_install:
+  - pwd
+  - ls -la
+  - chmod +x /.gradlew
 after_success:
   - ./gradlew test jacocoTestReport coveralls
+
