@@ -4,4 +4,3 @@ jdk:
   - oraclejdk9
 after_success:
   - mvn test -B
-
